@@ -1,7 +1,7 @@
 /* Theme: painted-warm — inspired by the provided artwork */
 /* Change the --bg-image path if your file is elsewhere */
 :root{
-  --bg-image: url("/mnt/data/bgimg.png"), url("/images/bgimg.png"), url("bgimg.png");
+  --bg-image: url("/mnt/data/bgimg.png"), url("images/bgimg.png"), url("bgimg.png");
   --max-width: 1000px;
   --brand: #ffb347;        /* warm orange */
   --accent: #7a4fe0;       /* violet rim */
@@ -194,3 +194,4 @@ a:focus, button:focus {
   .site-nav a { padding: .5rem .9rem; }
   .video-container { max-width: 920px; margin-left: auto; margin-right: auto; }
 }
+
